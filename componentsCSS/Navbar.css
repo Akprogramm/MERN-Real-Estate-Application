@@ -1,0 +1,10 @@
+.navbar{
+  background-color: rgb(57, 57, 139);
+}
+
+.nav_button{
+  max-width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

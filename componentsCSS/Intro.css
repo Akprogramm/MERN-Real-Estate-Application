@@ -1,0 +1,83 @@
+
+body{
+ background-color: hsl(0, 0%, 84%);
+}
+
+.bodyBox{
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.inforationBOX{
+    background-color: rgb(57, 57, 139);
+    height: 24rem;
+    border-radius: 10px;
+}
+
+#inputfirstname{
+    width: 25vw;
+}
+
+#inputlastname{
+    width: 25vw;
+}
+
+#inputcityname{
+    width: 25vw;
+}
+
+#inputstate{
+    width: 25vw;
+}
+
+
+#exampleInputEmail1{
+    margin: auto;
+    width: 35vw;
+}
+
+#exampleInputPassword1{
+    margin: auto;
+    width: 35vw;
+}
+
+.submit{
+    width: fit-content;
+    margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .inforationBOX{
+        height: 25rem;
+    }
+
+    #inputfirstname{
+        width: 40vw;
+    }
+    
+    #inputlastname{
+        width: 40vw;
+    }
+
+    #inputcityname{
+        width: 40vw;
+    }
+    
+    #inputstate{
+        width: 40vw;
+    }
+
+    #exampleInputEmail1{
+        margin: auto;
+        width: 50vw;
+    }
+    
+    #exampleInputPassword1{
+        margin: auto;
+        width: 50vw;
+    }
+
+}
